@@ -46,6 +46,9 @@ export GEMINI_API_KEY="..."   # from https://aistudio.google.com/apikey
 .venv/bin/python gemini/01_hello.py
 .venv/bin/python gemini/02_tool_call.py "Wie warm ist es in Berlin in Fahrenheit?"
 .venv/bin/python gemini/03_skills.py "Schreib ein Haiku über Kaffee."
+.venv/bin/python gemini/04_bash_tool.py "Wie viele Python-Dateien gibt es im Ordner gemini?"
 ```
+
+Example 4 asks for confirmation (`y`) before running each shell command.
 
 The default model is `gemini-3.5-flash-lite`; override it with `GEMINI_MODEL=<model>`.
