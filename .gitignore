@@ -10,3 +10,6 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# Exportierte Claude-Code-Unterhaltungen
+conversation-*.txt
