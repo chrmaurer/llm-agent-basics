@@ -2,6 +2,12 @@
 
 Hands-on learning project for LLM agent basics: function calling, tool use and on-demand skills – with Python examples for the Gemini API.
 
+## Why Gemini?
+
+The examples use the Gemini API because [Google AI Studio](https://aistudio.google.com/apikey) offers a **free API key** – ideal for learning and experimenting without costs.
+
+The concepts (tool calls, function calling, skills) work the same way with other providers such as OpenAI or Anthropic (Claude). They just didn't offer a free API key, so they aren't used here.
+
 ## Examples
 
 | # | File | What it shows |
