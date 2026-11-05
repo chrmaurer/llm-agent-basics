@@ -40,6 +40,18 @@ python3 -m venv .venv
 export GEMINI_API_KEY="..."   # from https://aistudio.google.com/apikey
 ```
 
+### Alternative: setup with uv (if your system Python is older than 3.9)
+
+`pip install` fails with `No matching distribution found for google-genai` on Python 3.8 or older. [uv](https://docs.astral.sh/uv/) downloads a recent Python without touching the system one (no sudo needed):
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+uv venv --python 3.12 .venv
+uv pip install -r requirements.txt
+```
+
+Note: uv venvs contain no `pip` – use `uv pip install ...` instead. Running the examples works the same as below.
+
 ## Run
 
 ```bash
